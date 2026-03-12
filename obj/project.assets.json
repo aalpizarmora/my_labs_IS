@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/aalpizar/Laboratorio1/Laboratorio1.csproj",
+      "projectUniqueName": "/Users/aalpizar/Documents/Laboratorio1_C20281/Laboratorio1.csproj",
       "projectName": "Laboratorio1",
-      "projectPath": "/Users/aalpizar/Laboratorio1/Laboratorio1.csproj",
+      "projectPath": "/Users/aalpizar/Documents/Laboratorio1_C20281/Laboratorio1.csproj",
       "packagesPath": "/Users/aalpizar/.nuget/packages/",
-      "outputPath": "/Users/aalpizar/Laboratorio1/obj/",
+      "outputPath": "/Users/aalpizar/Documents/Laboratorio1_C20281/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/aalpizar/.nuget/NuGet/NuGet.Config"

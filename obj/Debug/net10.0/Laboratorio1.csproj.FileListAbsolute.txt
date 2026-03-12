@@ -98,8 +98,8 @@
 /Users/aalpizar/Laboratorio1/obj/Debug/net10.0/Laboratorio1.sourcelink.json
 /Users/aalpizar/Documents/Laboratorio1_C20281/bin/Debug/net10.0/appsettings.Development.json
 /Users/aalpizar/Documents/Laboratorio1_C20281/bin/Debug/net10.0/appsettings.json
-/Users/aalpizar/Documents/Laboratorio1_C20281/bin/Debug/net10.0/Laboratorio1.staticwebassets.endpoints.json
 /Users/aalpizar/Documents/Laboratorio1_C20281/bin/Debug/net10.0/Laboratorio1.staticwebassets.runtime.json
+/Users/aalpizar/Documents/Laboratorio1_C20281/bin/Debug/net10.0/Laboratorio1.staticwebassets.endpoints.json
 /Users/aalpizar/Documents/Laboratorio1_C20281/bin/Debug/net10.0/Laboratorio1
 /Users/aalpizar/Documents/Laboratorio1_C20281/bin/Debug/net10.0/Laboratorio1.deps.json
 /Users/aalpizar/Documents/Laboratorio1_C20281/bin/Debug/net10.0/Laboratorio1.runtimeconfig.json

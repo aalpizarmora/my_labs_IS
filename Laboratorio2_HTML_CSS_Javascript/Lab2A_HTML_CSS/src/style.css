@@ -1,0 +1,117 @@
+/* Estilo general de la página */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    /* Tipo de letra para el cuerpo */
+    background-color:  rgb(223, 194, 216);
+    /* Color de fondo */
+    margin: 0;
+    /* Elimina el margen predeterminado del navegador */
+    padding: 0;
+    /* Elimina el relleno predeterminado del navegador */
+}
+
+/* Contenedor principal */
+div {
+    width: 90%;
+    /* Ancho del contenedor principal */
+    margin: 0 auto;
+    /* Centra el contenedor horizontalmente */
+}
+
+/* Encabezado */
+header {
+    background-color: #aac2e9;
+    /* Color de fondo del encabezado */
+    color: white;
+    /* Color del texto en el encabezado */
+    text-align: left;
+    /* Alineación del texto a la izquierda */
+    padding: 15px;
+    /* Relleno alrededor del texto en el encabezado */
+}
+
+/* Navegación */
+nav {
+    /* Estilo para la barra de navegación */
+    background-color: #fffbd5;
+    /* Color de fondo de la barra de navegación */
+    padding: 5px;
+    /* Relleno alrededor de los enlaces de navegación */
+    text-align: left;
+    /* Alineación del texto en la barra de navegación */
+}
+
+nav p {
+    display: inline;
+    /* Hace que los párrafos dentro de la navegación estén en línea */
+    margin: 0 10px; /* espacio entre links */
+}
+
+/* Links del menú */
+nav a {
+    text-decoration: none;
+    /* Elimina el subrayado de los enlaces */
+    color: #aac2e9;
+    /* Color del texto en los enlaces */
+    font-weight: bold;
+    /* Estilo para los enlaces de navegación */
+}
+
+/* Efecto al pasar el mouse */
+nav a:hover {
+    color: rgb(223, 194, 216);
+}
+
+/* Secciones */
+#sobre-mí, #trabajos, #pasatiempos {
+    margin-top: 10px;
+    /* Espacio superior para separar las secciones */
+    padding: 10px;
+    display: none;
+}
+
+/* Muestra solo la sección seleccionada */
+#sobre-mí:target,
+#trabajos:target,
+#pasatiempos:target {
+    display: block;
+}
+
+/* Títulos de secciones */
+h2 {
+    color: white;
+}
+
+/* Imagen */
+img {
+    display: block;
+    /* Hace que la imagen se comporte como un bloque para centrarla */
+    margin: 20px auto;
+    /* Centra la imagen horizontalmente y agrega espacio vertical */
+}
+
+/* Listas */
+ul {
+    list-style-type: circle;
+    /* Tipo de viñeta para las listas */
+}
+
+/* Footer */
+footer {
+    color: white;
+    /* Color del texto en el pie de página */
+    text-align: center;
+    /* Alineación del texto en el pie de página */
+    padding: 10px;
+    /* Relleno alrededor del texto en el pie de página */
+    margin-top: 10px;
+    /* Espacio superior para separar el pie de página del contenido */
+    position: fixed;
+    /* Hace que el pie de página esté fijo en la parte inferior de la ventana */
+    bottom: 10px;
+    /* Posición del pie de página en la parte inferior */
+    left:0;
+    /* Alinea el pie de página a la izquierda */
+    width: 100%;
+    /* Asegura que el pie de página ocupe todo el ancho de la ventana */
+}

@@ -31,6 +31,7 @@
 </template>
 
 <script>
+import axios from "axios";
 export default {
     name: "CountriesList",
     data() {
@@ -47,7 +48,17 @@ export default {
     methods: {
         deleteCountry(index) {
             this.countries.splice(index, 1);
-        }
+        },
+        getCountries() {
+            axios.get("http://localhost:5134/api/Country").then((response) => {
+                this.countries = response.data;
+                console.log("Datos obtenidos de la API:", response.status);
+                console.log(this.countries);
+            });
+        },
+    },
+    created: function () {
+        this.getCountries();
     }
 };
 </script>

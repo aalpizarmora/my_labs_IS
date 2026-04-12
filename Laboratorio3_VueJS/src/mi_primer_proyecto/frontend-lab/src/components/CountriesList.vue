@@ -2,6 +2,16 @@
     <div class="container mt-5">
         <h1 class="display-4 text-center">CountriesList</h1>
 
+        
+        <div class="row justify-content-end">
+            <div class="col-2">
+                <a href="/country">
+                    <button yype="button" class="btn btn-outline-secondary float-right">
+                        Agregar País
+                    </button>
+                </a>
+            </div>
+        </div>
         <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
             <thead>
                 <tr>
@@ -28,6 +38,7 @@
             </tbody>
         </table>
     </div>
+ 
 </template>
 
 <script>
